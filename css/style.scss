@@ -1,0 +1,17 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    td {
+        position: relative;
+        button {
+            position: absolute;
+            &.detRow {
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+}
